@@ -52,5 +52,23 @@ namespace HomeWork
             frmMethod fm = new frmMethod();
             fm.Show();
         }
+
+        private void btnNote_Click(object sender, EventArgs e)
+        {
+            frmNote fn = new frmNote();
+            fn.Show();
+        }
+
+        private void btnScreenSaver_Click(object sender, EventArgs e)
+        {
+            frmScreen fsn = new frmScreen();
+            fsn.Show();
+        }
+
+        private void btnPictureView_Click(object sender, EventArgs e)
+        {
+            frmPictureView fpv = new frmPictureView();
+            fpv.Show();
+        }
     }
 }

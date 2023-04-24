@@ -117,4 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="喜馬拉雅" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\喜馬拉雅.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="喜鵲" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\喜鵲.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="圖靈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\圖靈.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="夜鷺" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\夜鷺.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="斑鳩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\斑鳩.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="海" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\海.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="藍鵲" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\藍鵲.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="蘋果" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\蘋果.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鴿子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\鴿子.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鵜鶘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\鵜鶘.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="麻雀" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\麻雀.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="黑面琵鷺" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\黑面琵鷺.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

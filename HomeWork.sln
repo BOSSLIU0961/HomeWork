@@ -5,6 +5,11 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork", "HomeWork\HomeWork.csproj", "{E2E8611B-19BF-4507-9668-ED35F5838E60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{55D7E0BD-B1FF-4272-978C-CC0BD4CE5077}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork\frmScreenSaver.cs = HomeWork\frmScreenSaver.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

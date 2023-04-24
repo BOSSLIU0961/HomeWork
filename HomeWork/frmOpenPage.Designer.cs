@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOpenPage));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnPictureView = new System.Windows.Forms.Button();
+            this.btnScreenSaver = new System.Windows.Forms.Button();
+            this.btnNote = new System.Windows.Forms.Button();
             this.btnMethod = new System.Windows.Forms.Button();
             this.btnClock = new System.Windows.Forms.Button();
             this.btnPOS = new System.Windows.Forms.Button();
@@ -58,6 +59,11 @@
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel1.BackgroundImage")));
+            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            // 
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
@@ -74,19 +80,26 @@
             // splitContainer2.Panel1
             // 
             this.splitContainer2.Panel1.AutoScroll = true;
+            this.splitContainer2.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel1.BackgroundImage")));
+            this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel1.Controls.Add(this.button13);
             this.splitContainer2.Panel1.Controls.Add(this.button12);
             this.splitContainer2.Panel1.Controls.Add(this.button11);
             this.splitContainer2.Panel1.Controls.Add(this.button10);
-            this.splitContainer2.Panel1.Controls.Add(this.button9);
-            this.splitContainer2.Panel1.Controls.Add(this.button8);
-            this.splitContainer2.Panel1.Controls.Add(this.button7);
+            this.splitContainer2.Panel1.Controls.Add(this.btnPictureView);
+            this.splitContainer2.Panel1.Controls.Add(this.btnScreenSaver);
+            this.splitContainer2.Panel1.Controls.Add(this.btnNote);
             this.splitContainer2.Panel1.Controls.Add(this.btnMethod);
             this.splitContainer2.Panel1.Controls.Add(this.btnClock);
             this.splitContainer2.Panel1.Controls.Add(this.btnPOS);
             this.splitContainer2.Panel1.Controls.Add(this.btnCalculate);
             this.splitContainer2.Panel1.Controls.Add(this.btnLoan);
             this.splitContainer2.Panel1.Controls.Add(this.btnHello);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel2.BackgroundImage")));
+            this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Size = new System.Drawing.Size(1228, 552);
             this.splitContainer2.SplitterDistance = 330;
             this.splitContainer2.TabIndex = 0;
@@ -127,32 +140,35 @@
             this.button10.Text = "button10";
             this.button10.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnPictureView
             // 
-            this.button9.Location = new System.Drawing.Point(48, 272);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(234, 25);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnPictureView.Location = new System.Drawing.Point(48, 272);
+            this.btnPictureView.Name = "btnPictureView";
+            this.btnPictureView.Size = new System.Drawing.Size(234, 25);
+            this.btnPictureView.TabIndex = 8;
+            this.btnPictureView.Text = "PictureView";
+            this.btnPictureView.UseVisualStyleBackColor = true;
+            this.btnPictureView.Click += new System.EventHandler(this.btnPictureView_Click);
             // 
-            // button8
+            // btnScreenSaver
             // 
-            this.button8.Location = new System.Drawing.Point(48, 241);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(234, 25);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnScreenSaver.Location = new System.Drawing.Point(48, 241);
+            this.btnScreenSaver.Name = "btnScreenSaver";
+            this.btnScreenSaver.Size = new System.Drawing.Size(234, 25);
+            this.btnScreenSaver.TabIndex = 7;
+            this.btnScreenSaver.Text = "ScreenSaver";
+            this.btnScreenSaver.UseVisualStyleBackColor = true;
+            this.btnScreenSaver.Click += new System.EventHandler(this.btnScreenSaver_Click);
             // 
-            // button7
+            // btnNote
             // 
-            this.button7.Location = new System.Drawing.Point(48, 210);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(234, 25);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnNote.Location = new System.Drawing.Point(48, 210);
+            this.btnNote.Name = "btnNote";
+            this.btnNote.Size = new System.Drawing.Size(234, 25);
+            this.btnNote.TabIndex = 6;
+            this.btnNote.Text = "Note";
+            this.btnNote.UseVisualStyleBackColor = true;
+            this.btnNote.Click += new System.EventHandler(this.btnNote_Click);
             // 
             // btnMethod
             // 
@@ -241,9 +257,9 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnPictureView;
+        private System.Windows.Forms.Button btnScreenSaver;
+        private System.Windows.Forms.Button btnNote;
         private System.Windows.Forms.Button btnMethod;
         private System.Windows.Forms.Button btnClock;
         private System.Windows.Forms.Button btnPOS;

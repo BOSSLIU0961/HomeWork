@@ -57,6 +57,12 @@
     <Compile Include="frmClock.Designer.cs">
       <DependentUpon>frmClock.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDrawPainter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawPainter.Designer.cs">
+      <DependentUpon>frmDrawPainter.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHello.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,17 +87,35 @@
     <Compile Include="frmMethod.Designer.cs">
       <DependentUpon>frmMethod.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNote.Designer.cs">
+      <DependentUpon>frmNote.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmOpenPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmOpenPage.Designer.cs">
       <DependentUpon>frmOpenPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPictureView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPictureView.Designer.cs">
+      <DependentUpon>frmPictureView.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPOS.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPOS.Designer.cs">
       <DependentUpon>frmPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScreen.Designer.cs">
+      <DependentUpon>frmScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,6 +135,9 @@
     <EmbeddedResource Include="frmClock.resx">
       <DependentUpon>frmClock.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawPainter.resx">
+      <DependentUpon>frmDrawPainter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHello.resx">
       <DependentUpon>frmHello.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,16 +150,61 @@
     <EmbeddedResource Include="frmMethod.resx">
       <DependentUpon>frmMethod.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmNote.resx">
+      <DependentUpon>frmNote.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmOpenPage.resx">
       <DependentUpon>frmOpenPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPictureView.resx">
+      <DependentUpon>frmPictureView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPOS.resx">
       <DependentUpon>frmPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScreen.resx">
+      <DependentUpon>frmScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圖靈.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\蘋果.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鵜鶘.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\夜鷺.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑面琵鷺.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鴿子.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\麻雀.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\斑鳩.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\喜鵲.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\藍鵲.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\海.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\喜馬拉雅.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
